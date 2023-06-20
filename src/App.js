@@ -11,14 +11,14 @@ import { Provider } from "react-redux";
 
 // console.log(cartItems.length)
 //initial store
-const initialStore = {
-  cart: cartItems,
-  total: 0,
-  amount: 0
-}
+// const initialStore = {
+//   cart: cartItems,
+//   total: 0,
+//   amount: 0
+// }
 
 //store setup
-const store = createStore(reducer,initialStore);
+const store = createStore(reducer);
 
 function App() {
   // cart setup

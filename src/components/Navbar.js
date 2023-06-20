@@ -21,7 +21,7 @@ const Navbar = ({amount}) => {
 };
 
 const mapState2Props = (state) => {
-  console.log(state);
+  // console.log(state);
   return {
     amount: state.amount
   }
